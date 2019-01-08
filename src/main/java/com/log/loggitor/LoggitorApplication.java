@@ -151,6 +151,12 @@ public class LoggitorApplication {
 		repDef.save(new Defects("Error", "00001", "aaaa"));
 		
 		*/
+			App app1=new App("aaa","Custom");
+			App app2=new App("bbb","Core");
+			App app3=new App("ccc","Custom");
+			repositoryAppTable.save(app1);
+			repositoryAppTable.save(app2);
+		repositoryAppTable.save(app3);
 		};
 	}
 	
