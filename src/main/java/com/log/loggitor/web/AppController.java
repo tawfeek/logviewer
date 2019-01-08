@@ -18,6 +18,7 @@ public class AppController {
 
 		return appRepository.findAll();
     } 
+	
 
 
 }
